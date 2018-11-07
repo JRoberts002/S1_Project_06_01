@@ -18,7 +18,6 @@ html {
     background: url(sd_back1.png) 100% / cover fixed;
 }
 
-
 /* Body Styles */
 body {
     background: url(sd_back2.png),
@@ -28,19 +27,29 @@ body {
         radial-gradient(5% 5% at 90% 10%, white 15%, rgba(0, 0, 0, 0) 40%),
         rgb(151, 151, 151);
     box-shadow: rgb(31, 31, 31) 30px 0px 45px,
-        rgb(31, 31, 31) 30px 0px 45px;
+        rgb(31, 31, 31) -30px 0px 45px;
 }
 
-
-
 /* Navigation List Styles */
+body>header a {
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(211, 211, 255);
+}
 
-
-
+h1 {
+    text-shadow: rgb(211, 211, 211) 0 0 5px;
+}
 
 /* Section Left Styles */
-
-
-
+#mportrait {
+    filter: drop-shadow(-15px 0 5px rgba(51, 51, 51, 0.9)) opacity(0.6) grayscale(0.7);
+    transform: rotateY(180deg);
+}
 
 /* Footer Styles */
+footer {
+    border-top-style: solid;
+    border-width: 2px;
+    color: rgb(171, 171, 171);
+}
