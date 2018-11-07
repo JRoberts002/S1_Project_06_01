@@ -14,11 +14,13 @@
 */
 
 /* HTML Styles */
+/*This determines the background image and how it scrolls with the page.*/
 html {
     background: url(sd_back1.png) 100% / cover fixed;
 }
 
 /* Body Styles */
+/*This adds a background to the body as well as a box shadow.*/
 body {
     background: url(sd_back2.png),
         radial-gradient(circle closest-corner at 40% 70%, white 15%, rgba(151, 151, 151, 0.5) 50%),
@@ -31,23 +33,27 @@ body {
 }
 
 /* Navigation List Styles */
+/*This gives the nav a border.*/
 body>header a {
     border-style: outset;
     border-width: 5px;
     border-color: rgb(211, 211, 255);
 }
 
+/*This gives the titles a white shadow.*/
 h1 {
     text-shadow: rgb(211, 211, 211) 0 0 5px;
 }
 
 /* Section Left Styles */
+/*This flips the image, and applies three filters to it.*/
 #mportrait {
     filter: drop-shadow(-15px 0 5px rgba(51, 51, 51, 0.9)) opacity(0.6) grayscale(0.7);
     transform: rotateY(180deg);
 }
 
 /* Footer Styles */
+/*This puts a line betweeen the main body and the footer.*/
 footer {
     border-top-style: solid;
     border-width: 2px;
